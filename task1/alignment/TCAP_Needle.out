@@ -1,0 +1,145 @@
+########################################
+# Program: needle
+# Rundate: Wed 22 May 2024 03:07:27
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240522-030723-0203-18173071-p1m.asequence
+#    -bsequence emboss_needle-I20240522-030723-0203-18173071-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 39665349-39666554
+# 2: 98274637-98275779
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1252
+# Identity:     900/1252 (71.9%)
+# Similarity:   900/1252 (71.9%)
+# Gaps:         155/1252 (12.4%)
+# Score: 5270.5
+# 
+#
+#=======================================
+
+39665349-3966      1 -----------------GAGG--------AGTGATCATGGCTACCTCAGA     25
+                                      ||||        ||..||||||||.||.|||||
+98274637-9827      1 AGGAGCAGGACATAGCAGAGGGAGCAATCAGAAATCATGGCCACTTCAGA     50
+
+39665349-3966     26 GCTGAGCTGCGAGGTGTCGGAGGAGAACTGTGAGCGCCGGGAGGCCTTCT     75
+                     ||||||||||.|.|||||.|||||||||...||.|||.||||.|||||||
+98274637-9827     51 GCTGAGCTGCCAAGTGTCTGAGGAGAACCAGGAACGCAGGGAAGCCTTCT    100
+
+39665349-3966     76 GGGCAGAATGGAAGGATCTGACACTGTCCACACGGCCCGAGGAGGGGTGA    125
+                     ||||.||.|||||.||.|||||.|||||.||.|||||.||.|||||||||
+98274637-9827    101 GGGCTGAGTGGAAAGACCTGACTCTGTCTACCCGGCCGGAAGAGGGGTGA    150
+
+39665349-3966    126 GTGTGGGTC--TGCTAGAGCCCTGCCTCTGCTCCCCCAGAGCACCCTCAC    173
+                     |||||..||  ||..|| ||.|||||||||||||||||.|||||     |
+98274637-9827    151 GTGTGAATCATTGGGAG-GCTCTGCCTCTGCTCCCCCAAAGCAC-----C    194
+
+39665349-3966    174 TGAGCCATGAGGCCAGAGCATGAAGCCCTGGAGAAATTTCTGGGGGTGGG    223
+                     ||...|||..   |||||.|..|..|||||.||   ||||||||      
+98274637-9827    195 TGCTACATAT---CAGAGTACAAGCCCCTGAAG---TTTCTGGG------    232
+
+39665349-3966    224 GGCAGGAAGAATGCCCCATGGGGAGAGCAAAGGGGAACCACCCTTCCTGC    273
+                                 |||||                   .||      |||||
+98274637-9827    233 ------------GCCCC-------------------TCC------CCTGC    245
+
+39665349-3966    274 CCCCAGGTCCCAGC--AGCCCAGGGGAGCCCCCCACCCAGCCTGTGCCCA    321
+                     .||..||..|.|||  .|||..||.||   ||||||..||||...|.|||
+98274637-9827    246 TCCAGGGAACTAGCTATGCCAGGGAGA---CCCCACTTAGCCCAAGACCA    292
+
+39665349-3966    322 GAGAGCAACAGCTCCCAGGAGCTCACTGCCCC----TCCCCTCTCCC---    364
+                     ||||..|.|.||.|.|   ||.||||  |.||    ||.|||.|||.   
+98274637-9827    293 GAGAAGAGCTGCCCTC---AGTTCAC--CACCTTTGTCTCCTTTCCACTT    337
+
+39665349-3966    365 -CAGCTGCTCCCTGCATGAGGAGGACACCCAGAGACATGAGACCTACCAC    413
+                      |||.||||||.||||.||||||||.||.|||||.|||||||||||||||
+98274637-9827    338 TCAGATGCTCCTTGCACGAGGAGGATACACAGAGGCATGAGACCTACCAC    387
+
+39665349-3966    414 CAGCAGGGGCAGTGCCAGGTGCTGGTGCAGCGCTCGCCCTGGCTGATGAT    463
+                     |.||||||.|||||.||||.|.||||.||||||||.||.||||||.||||
+98274637-9827    388 CGGCAGGGACAGTGTCAGGCGGTGGTACAGCGCTCACCATGGCTGGTGAT    437
+
+39665349-3966    464 GCGGATGGGCATCCTCGGCCGTGGGCTGCAGGAGTACCAGCTGCCCTACC    513
+                     |||..||||.|||||||||||||||||.|||||.|||||||||||.||||
+98274637-9827    438 GCGCCTGGGTATCCTCGGCCGTGGGCTACAGGAATACCAGCTGCCGTACC    487
+
+39665349-3966    514 AGCGGGTACTGCCGCTGCCCATCTTCACCCCTGCCAAGATGGGCGCCACC    563
+                     |||||||.|||||.||.|||||||||||.||..|||||.||||.|||.||
+98274637-9827    488 AGCGGGTGCTGCCCCTACCCATCTTCACGCCCACCAAGGTGGGGGCCTCC    537
+
+39665349-3966    564 AAGGAGGAGCGTGAGGACACCCCCATCCAGCTTCAGGAGCTGCTGGCGCT    613
+                     |||||||||||.|||||.||||||||||||||||.||||||||||||.||
+98274637-9827    538 AAGGAGGAGCGCGAGGAGACCCCCATCCAGCTTCGGGAGCTGCTGGCCCT    587
+
+39665349-3966    614 GGAGACAGCCCTGGGTGGCCAGTGTGTGGACCGCCAGGAGGTGGCTGAGA    663
+                     ||||||.||||||||.||||||||.|||||.||||||||.||||||||||
+98274637-9827    588 GGAGACGGCCCTGGGCGGCCAGTGCGTGGAGCGCCAGGACGTGGCTGAGA    637
+
+39665349-3966    664 TCACAAAGCAGCTGCCCCCTGTGGTGCCTGTCAGCAAGCCCGGTGCACTT    713
+                     |||||||||||||.||||||||||||||.||||||||.|||||..|.||.
+98274637-9827    638 TCACAAAGCAGCTTCCCCCTGTGGTGCCAGTCAGCAAACCCGGGCCCCTG    687
+
+39665349-3966    714 CGTCGCTCCCTGTCCCGCTCCATGTCCCAGGAAGCACAGAGAGGCTGAGA    763
+                     ||.||..|||||||.||.||||||||.||||||||.||||||||||||||
+98274637-9827    688 CGCCGTACCCTGTCTCGATCCATGTCTCAGGAAGCTCAGAGAGGCTGAGA    737
+
+39665349-3966    764 GGGAC--TGTGACTTGGGCTCCGCTGTGCCCGCCCTGGGCTGGGCCCTTC    811
+                     .||||  |||||||..|.||||.|||||.|.|.|...||||.|||.||||
+98274637-9827    738 TGGACTGTGTGACTCAGACTCCACTGTGTCTGTCTCAGGCTAGGCACTTC    787
+
+39665349-3966    812 CTGGCTAGGACTGTGGAGGGGAGCTGCTGGCCATGGCTGCTTTGTAGTTT    861
+                     |||||||||||..||||||.|||||||||||..|||||||||||||||||
+98274637-9827    788 CTGGCTAGGACAATGGAGGAGAGCTGCTGGCAGTGGCTGCTTTGTAGTTT    837
+
+39665349-3966    862 GCCCAGAGTTGGGGGCTAGGGGAGGGGGGAGCCAGAGGCCAGGATGCCTG    911
+                     ||||||||.||||.||||.||||||.|||||||.|||||||||||||||.
+98274637-9827    838 GCCCAGAGGTGGGAGCTATGGGAGGAGGGAGCCCGAGGCCAGGATGCCTA    887
+
+39665349-3966    912 AGCCCCCTGAGTTCCCAAAGGGAGGGTGGCAGAGACAGTGGGCACTAAGG    961
+                     .|...|||||||.||||.|||||.||..||...||..|.||||||||.|.
+98274637-9827    888 GGTGTCCTGAGTCCCCACAGGGAAGGGAGCGAGGATGGCGGGCACTAGGA    937
+
+39665349-3966    962 GTGGAGAGTTGGGGGCCAGCACAGCTGAGGACCCTCAGCCCCAGGAGAAG   1011
+                     ||||||                |||||||.||||||||||||||.|||||
+98274637-9827    938 GTGGAG----------------AGCTGAGCACCCTCAGCCCCAGAAGAAG    971
+
+39665349-3966   1012 GGACAAAAGGTACTGGTGAGGGCAAGAGGTGCCTGGGAGGAGTGGCCCTG   1061
+                     .|||||.||.|.||||||||.| .|||||..||||   |||.||| ||||
+98274637-9827    972 AGACAAGAGATCCTGGTGAGAG-GAGAGGCCCCTG---GGAATGG-CCTG   1016
+
+39665349-3966   1062 ATCCAGGAAAATGTG----AGGGGA---ATCTGGAACGCTCTAGGCAGAA   1104
+                     .| |.||||.|..||    |||.||   ||.||.||||||          
+98274637-9827   1017 CT-CGGGAACAGATGGACTAGGAGAAGGATGTGCAACGCT----------   1055
+
+39665349-3966   1105 GAAGCTGGGAGGGAGGGGGAGGTGAAAAGGGCAGAGGCAAGGATGGTGGG   1154
+                         ||||.|.|||||||||.|||||.||||..||.|      |||...|
+98274637-9827   1056 ----CTGGAAAGGAGGGGGATGTGAAGAGGGTGGAAG------TGGGCAG   1095
+
+39665349-3966   1155 GCCCCCAGCACCCTCTGTTAGTGCCGCAATAAATGCTCAATCATGTGCCA   1204
+                     |||||||||||||||||.|||..|.||||||||||||||..|||||.|  
+98274637-9827   1096 GCCCCCAGCACCCTCTGGTAGCACTGCAATAAATGCTCAGCCATGTTC--   1143
+
+39665349-3966   1205 GA   1206
+                       
+98274637-9827   1144 --   1143
+
+
+#---------------------------------------
+#---------------------------------------

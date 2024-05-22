@@ -1,0 +1,369 @@
+########################################
+# Program: needle
+# Rundate: Wed 22 May 2024 03:07:54
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240522-030749-0123-6237356-p1m.asequence
+#    -bsequence emboss_needle-I20240522-030749-0123-6237356-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: c49723951-49719916
+# 2: 107926490-107929119
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 4082
+# Identity:    2135/4082 (52.3%)
+# Similarity:  2135/4082 (52.3%)
+# Gaps:        1498/4082 (36.7%)
+# Score: 12121.0
+# 
+#
+#=======================================
+
+c49723951-497      1 GAGTTCGGGGCCAGCAGCCGTCTAC--CCGGTGTCGCGTTCTGTGTTGTG     48
+                      |..||.||.|||||  |.||||.|  ||.||..|.|||..|.||||.||
+107926490-107      1 -AACTCCGGACCAGC--CGGTCTCCAACCAGTTCCTCGTCTTCTGTTCTG     47
+
+c49723951-497     49 GC-GGCCCTGGATCCGGCGTCAGGG-CGACCGGGCGGACGAGGTGGAGCC     96
+                     || |..||||||.||..|.|||||| .||.|.||.||.|||||||...||
+107926490-107     48 GCTGATCCTGGACCCCACATCAGGGTAGAGCAGGGGGGCGAGGTGACACC     97
+
+c49723951-497     97 AGAGTCTGTCAGGCGGGTTGGTGAAGGGCGCGGGGCCGGGCACGGCGTTG    146
+                     |||||..|||||.|..|||||||||..|.||.||.|.|||||||||||||
+107926490-107     98 AGAGTTGGTCAGTCTAGTTGGTGAAACGTGCAGGTCAGGGCACGGCGTTG    147
+
+c49723951-497    147 GGAGTGCGCGGCAGGGACCGGCCAGGCGGGCTGCAGGCACCTCAGAGCCC    196
+                     ||||||||||||||||..|||.|||||||.|||.|.|.||.|..||  ||
+107926490-107    148 GGAGTGCGCGGCAGGGGTCGGTCAGGCGGCCTGTAAGTACTTTGGA--CC    195
+
+c49723951-497    197 GGGACA-CCCCCTC-AACGTCCGCAGGCGCGATGAAGGCACTGATCTTAG    244
+                     |..|.| ||.|.|| |||.||.||||.|||.|||||||||||||||||.|
+107926490-107    196 GATAGATCCACTTCTAACATCTGCAGACGCCATGAAGGCACTGATCTTGG    245
+
+c49723951-497    245 TGGGGGGCTATGGGACGCGGCTACGGCCGCTGACGCTGAGCACCCCGAAG    294
+                     ||||.||.||||||||.|||.|.||||||||||||.|||||||.||||||
+107926490-107    246 TGGGAGGGTATGGGACACGGTTGCGGCCGCTGACGTTGAGCACTCCGAAG    295
+
+c49723951-497    295 CCACTGGTGGACTTCTGCAATAAGCCCATCTTGCTGCACCAAGTGGAGGC    344
+                     |||.||||||||||||||||||||||||||||||||||.|||||||||||
+107926490-107    296 CCATTGGTGGACTTCTGCAATAAGCCCATCTTGCTGCATCAAGTGGAGGC    345
+
+c49723951-497    345 GCTAGCCGCGGTAAGACCCTGGGTCGGGATCAGAGTCGCGTTCGGATCTG    394
+                     |||.||.||||||||.||.||||                  ||.|.|.||
+107926490-107    346 GCTTGCTGCGGTAAGGCCGTGGG------------------TCTGTTATG    377
+
+c49723951-497    395 GCGGGACTAGGGATGGCCAGCGACTAGG-GGTCAGGGGCTCCCGTACCTT    443
+                     ||||||..||||||||..||.||||.|| ||.||||||....|.||||||
+107926490-107    378 GCGGGAAGAGGGATGGATAGTGACTGGGAGGCCAGGGGTGGTCATACCTT    427
+
+c49723951-497    444 CTGACTGAGCCCGCCCGTCGGCCTGCGT-------TCTGACAGGCAGGCG    486
+                     .||||||||||.|.|.....||...|.|       |||||||||||||.|
+107926490-107    428 GTGACTGAGCCAGTCAACTAGCACACCTTATTGTGTCTGACAGGCAGGTG    477
+
+c49723951-497    487 TGGACCACGTGATCCTGGCCGTGAGCTACATGTCGCAGGTGCTGGAGAAG    536
+                     |||||||||||||||||||.||||||||||||||.|||.||.||||||||
+107926490-107    478 TGGACCACGTGATCCTGGCAGTGAGCTACATGTCACAGATGTTGGAGAAG    527
+
+c49723951-497    537 GAAATGAAGGCACAGGAGCAGAGGGTGAGGCACAGACTCTTGGCCCTTAT    586
+                     ||||||||||||||.|||||.|||||||||||..||  |||.||||||..
+107926490-107    528 GAAATGAAGGCACAAGAGCAAAGGGTGAGGCATGGA--CTTAGCCCTTTC    575
+
+c49723951-497    587 TCTCGGTCCCCGCCCAACTTCCCATC-CTGGTAGAACCTGACTGGGGGGG    635
+                     |.|.||||||.|.....|||.||||. ..||..||||.|.||. .|..||
+107926490-107    576 TTTAGGTCCCTGGGGCTCTTACCATTGGAGGAGGAACATAACC-AGATGG    624
+
+c49723951-497    636 CCTCTTCCTTCCAGCTGGGAATCCGAATCTCCATGTCCCATGAAGAGGAG    685
+                     |.|||||.||||||||.||||||||||||||.|||||.||||||||||||
+107926490-107    625 CTTCTTCTTTCCAGCTTGGAATCCGAATCTCTATGTCTCATGAAGAGGAG    674
+
+c49723951-497    686 CCTTTGGGGACAGGTCAGTAGAGGCAGAAAGGTCCCTTGGGGGAGGGTTT    735
+                     ||||||||||||||||||||.|   ||.|||| ||||| |||.|...|||
+107926490-107    675 CCTTTGGGGACAGGTCAGTATA---AGGAAGG-CCCTT-GGGCAAACTTT    719
+
+c49723951-497    736 AAGGCCAGGAAAAGGGTAAGACCCAGCCTGGAGTGGGCCTGCTGAGCCT-    784
+                     |.||||||.|||..||||.   |||..|||| |.||....|..|.|||| 
+107926490-107    720 AGGGCCAGCAAAGAGGTAT---CCAATCTGG-GCGGATGGGTGGGGCCTC    765
+
+c49723951-497    785 --GAATCCAGGGACTCAGACCTCCAGCAAGGTGG-------TGACCTGTC    825
+                       ||.||.  ||||..||.||.|.||||||||||       ||||.||||
+107926490-107    766 TGGAGTCT--GGACCTAGGCCCCTAGCAAGGTGGTAACTTATGACTTGTC    813
+
+c49723951-497    826 CCCTTCCCCCAGCTGGGCCCCTGGCGCTGGCCCGTGACCTACTCTCTGAG    875
+                     ||||| |.|.|||||||||.||||||.|||||||.||||||||.||||||
+107926490-107    814 CCCTT-CTCTAGCTGGGCCTCTGGCGTTGGCCCGAGACCTACTATCTGAG    862
+
+c49723951-497    876 ACTGCAGACCCTTTCTTCGTCCTCAACAGTGACGTGATCTGCGATTTCCC    925
+                     |||||.||||||||||||||.|||||||||||.|||||.||.||||||||
+107926490-107    863 ACTGCCGACCCTTTCTTCGTTCTCAACAGTGATGTGATATGTGATTTCCC    912
+
+c49723951-497    926 CTTCCAAGCCATGGTGCAGTTCCACCGGCACCATGGCCAGGAGGGCTCCA    975
+                     |||||||||||||||||||||.||.||||||||||||||.||||||||||
+107926490-107    913 CTTCCAAGCCATGGTGCAGTTTCATCGGCACCATGGCCAAGAGGGCTCCA    962
+
+c49723951-497    976 TCCTGGTAAGGCGCCAGGTCTTCTCTCTCTTGACACTTTCACCCTC-CAT   1024
+                     ||.||||||   |..|.|..||| |||   |||||.|..||||||| |||
+107926490-107    963 TCTTGGTAA---GAGAAGATTTC-CTC---TGACATTCCCACCCTCACAT   1005
+
+c49723951-497   1025 GCCCAGCCTCCCATGCCCCCTAGCCTTCATCTGCCTTCGGATGTTATGGA   1074
+                     |  .||.||..|.||.|||||.|.|||.|.||        .||||.| |.
+107926490-107   1006 G--GAGTCTTTCCTGACCCCTGGTCTTAAACT--------CTGTTTT-GC   1044
+
+c49723951-497   1075 TACAGAGCTGTGCAGTATGTATCTTTAAGCACTTGGGGCAGAGTCTCTTG   1124
+                     ||||.||||.|||||.||||.|          ||||||.||||.|| |||
+107926490-107   1045 TACAAAGCTATGCAGAATGTCT----------TTGGGGGAGAGCCT-TTG   1083
+
+c49723951-497   1125 AGATCT-GGAACGGCATGTGTATCAAGGCTTAGGAACACTGGACTAGGTC   1173
+                     ||||.| |||..|||||.|.|||||||..|.|.|||.|||||||||||.|
+107926490-107   1084 AGATGTGGGATAGGCATATTTATCAAGAGTAAAGAAAACTGGACTAGGCC   1133
+
+c49723951-497   1174 CGAGGTCCCCT--TCCT-TGCATTCAGGTGACCAAGGTGGAGGAACCCTC   1220
+                     ..||||.||||  .||| |..||||||||.|||||||||||.||.||.||
+107926490-107   1134 TAAGGTACCCTCCACCTCTATATTCAGGTTACCAAGGTGGAAGAGCCTTC   1183
+
+c49723951-497   1221 CAAGTACGGTGTGGTGGTGTGTGAGGCTGACACAGGCCGCATTCACCGGT   1270
+                     ||||||.|||||||||||.|||||||||||||||||||||||.|||||.|
+107926490-107   1184 CAAGTATGGTGTGGTGGTATGTGAGGCTGACACAGGCCGCATCCACCGTT   1233
+
+c49723951-497   1271 TCGTGGAGAAGCCACAGGTGTTTGTGTCCAATAAGATCAACGCAGGCATG   1320
+                     |.||.|||||||||||||||||||||||||||||||||||||||||||||
+107926490-107   1234 TTGTTGAGAAGCCACAGGTGTTTGTGTCCAATAAGATCAACGCAGGCATG   1283
+
+c49723951-497   1321 TACATCCTGAGCCCTGCAGTGCTGCAGCGCATCCAGGTGTGTAGGAGACA   1370
+                     |||||||||||||||||.||||||||||||||||||||||||||||||.|
+107926490-107   1284 TACATCCTGAGCCCTGCTGTGCTGCAGCGCATCCAGGTGTGTAGGAGAGA   1333
+
+c49723951-497   1371 GCTGTT-GGTGGGCTGGGGTGGGGCAGGCCATCACCGCCATG-ACCCTGC   1418
+                     .|||.| ||.||||||||||||.||||||   |.|.||..|| ..|||||
+107926490-107   1334 ACTGCTGGGCGGGCTGGGGTGGAGCAGGC---CTCTGCTGTGTGGCCTGC   1380
+
+c49723951-497   1419 TCACAAGCTGCCCACTCCCACAGCTGCAGCCTACGTCCATTGAGAAGGAG   1468
+                     ||||||..||||||||.|||||||||.|||||||.|||||||||||||||
+107926490-107   1381 TCACAAATTGCCCACTTCCACAGCTGAAGCCTACATCCATTGAGAAGGAG   1430
+
+c49723951-497   1469 GTCTTCCCCATTATGGCCAAGGAGGGGCAGCTATATGCCATGGAGTTACA   1518
+                     .|||||||..|||||||||||||||||||||||||||||||||||.|.||
+107926490-107   1431 ATCTTCCCAGTTATGGCCAAGGAGGGGCAGCTATATGCCATGGAGCTGCA   1480
+
+c49723951-497   1519 GGGTGAGGCAGGGAGGCCACAGGGTG-GGGGTGGTC----TGTGGCTGGG   1563
+                     ||||||||.|  |||||||.|||||| |||||.|||    |||||||.||
+107926490-107   1481 GGGTGAGGTA--GAGGCCATAGGGTGTGGGGTAGTCAGTGTGTGGCTAGG   1528
+
+c49723951-497   1564 CTGAGGCCCCTGATGCATCCCTCCCTACAGGCTTCTGGATGGACATTGGG   1613
+                     |.|||.||.||||..||||.|||..||||||||||||||||||||||||.
+107926490-107   1529 CAGAGCCCTCTGACCCATCTCTCTGTACAGGCTTCTGGATGGACATTGGA   1578
+
+c49723951-497   1614 CAGCCCAAGGACTTCCTCACTGGCATGTGCCTCTTCCTGCAGTCACTGAG   1663
+                     |||||||||||.||||||||||||||||||||||||||.||.||.|||||
+107926490-107   1579 CAGCCCAAGGATTTCCTCACTGGCATGTGCCTCTTCCTACAATCGCTGAG   1628
+
+c49723951-497   1664 GCAGAAGCAGCCTGAGCGGCTGTGCTCAGGCCCTGGCATTGTGGGCAACG   1713
+                     .||||||||.||.|||.|.||||.|||||||||||||||||||||.||.|
+107926490-107   1629 ACAGAAGCATCCAGAGAGACTGTACTCAGGCCCTGGCATTGTGGGGAATG   1678
+
+c49723951-497   1714 TGCTGGTGGTGAGGCCCTTGCCCAGCCCATCATTAACCCCCTCAGTCTTG   1763
+                     |.||.|||||||||||||||.||||||..||..|||.|...||||..|||
+107926490-107   1679 TACTTGTGGTGAGGCCCTTGTCCAGCCTGTCGCTAATCTTTTCAGATTTG   1728
+
+c49723951-497   1764 GGAGACAAGTGGCCCACTTGTATTTTTCCCACCGCTCTCAGGACCCAAGT   1813
+                     ||||||||.||.||||||..|..|||.|.||.|.||||||||||||||||
+107926490-107   1729 GGAGACAAATGACCCACTCTTGCTTTCCTCAACACTCTCAGGACCCAAGT   1778
+
+c49723951-497   1814 GCCCGCATCGGCCAGAACTGCAGCATTGGCCCCAATGTGAGCCTGGGACC   1863
+                     |||||.|||||.||||||||||||||||||||||||||.||||||||.||
+107926490-107   1779 GCCCGTATCGGTCAGAACTGCAGCATTGGCCCCAATGTAAGCCTGGGTCC   1828
+
+c49723951-497   1864 TGGCGTGGTGGTCGAAGATGGTGTGTGTATCCGGCGGTGCACGGTGCTGC   1913
+                     |||.||||||||.||.|||||||||||.||||||||.|||||.|||||.|
+107926490-107   1829 TGGTGTGGTGGTGGAGGATGGTGTGTGCATCCGGCGATGCACAGTGCTTC   1878
+
+c49723951-497   1914 GGGATGCCCGGATCCGTTCCCATTCCTGGCTTGAGTCCTGCATTGTGGGC   1963
+                     |.|||||.|..|||||.||||||||||||||||||||.|||||.||||||
+107926490-107   1879 GTGATGCTCACATCCGCTCCCATTCCTGGCTTGAGTCATGCATCGTGGGC   1928
+
+c49723951-497   1964 TGGCGCTGCCGCGTGGGTCAGTGGGTAAGCCTGTGGGCTGGGCTGGGTGG   2013
+                     |||||||||||.|||||.||.||||||||.||.||.|||||||||||..|
+107926490-107   1929 TGGCGCTGCCGTGTGGGCCAATGGGTAAGTCTATGAGCTGGGCTGGGCAG   1978
+
+c49723951-497   2014 GGAGAGGGGC-GGGGAGTGTGCCTGCCTCCCTGACAAGGCCTAT-CCTCT   2061
+                     |.|.|||.|| |||||.|.||..||||.|..|.|||||||.||| ||.|.
+107926490-107   1979 GCACAGGAGCAGGGGAATATGTGTGCCCCATTAACAAGGCTTATCCCCCA   2028
+
+c49723951-497   2062 CCTGGAGGTACGCATGGAGAACGTGACAGTGCTGGGTGAGGACGTCATAG   2111
+                     |||..||||.|||||||||||.||.||||||||||||||.||.|||||||
+107926490-107   2029 CCTCCAGGTGCGCATGGAGAATGTAACAGTGCTGGGTGAAGATGTCATAG   2078
+
+c49723951-497   2112 TTAATGATGAGCTCTACCTCAACGGAGCCAGCGTGCTGCCCCACAAGTCT   2161
+                     ||||||||||.||.||||||||.|||||||||||||||||||||||||||
+107926490-107   2079 TTAATGATGAACTGTACCTCAATGGAGCCAGCGTGCTGCCCCACAAGTCT   2128
+
+c49723951-497   2162 ATTGGCGAGTCAGTGCCAGAGCCTCGTATCATCATGTGAGGGG-ATGCAG   2210
+                     ||.||.||||||||.|||||.||||||||.|||||||||.||. |||.| 
+107926490-107   2129 ATCGGGGAGTCAGTACCAGAACCTCGTATTATCATGTGAAGGATATGGA-   2177
+
+c49723951-497   2211 TGGGGCTGGCCGAGCCCCGGTTTTCCCATCAGCAAGGGGAGTGCTGGCCT   2260
+                       |||||||||.|||..|...|||.|||||||| ||||.||    |.|..
+107926490-107   2178 --GGGCTGGCCAAGCATCCACTTTGCCATCAGC-AGGGTAG----GACTC   2220
+
+c49723951-497   2261 GACACATCAGAAGACCCTGGACTTGTCATTATTTGTCTGGGGGGCACTGG   2310
+                     .|..|.|||..||.|||||||||||.....||||||||.|||.|.|.|||
+107926490-107   2221 AATGCTTCACGAGGCCCTGGACTTGGTGCCATTTGTCTAGGGAGGAGTGG   2270
+
+c49723951-497   2311 GTGAAGCTGAAGCTGTTGGACACCTGCCTTCTCATGTGGACA-TCATCTG   2359
+                     .|||..||||||||||.||||..|||||||||..||.||||| .||| .|
+107926490-107   2271 ATGACTCTGAAGCTGTCGGACTTCTGCCTTCTGGTGGGGACAGACAT-GG   2319
+
+c49723951-497   2360 GCAGGATCCCTGCTGGGCACACCCCACAA-ACCCCACTCCCTCAAGAAGG   2408
+                     .||||| ||||||||||...|.||||||| .||||||||||||||||||.
+107926490-107   2320 ACAGGA-CCCTGCTGGGTGTAACCCACAAGCCCCCACTCCCTCAAGAAGA   2368
+
+c49723951-497   2409 GCCAGGGCCAGGGCTGTATGGAATAATAATTTAATGCTCACTGTGGCCCT   2458
+                     | |.||.||||||||||.||||||||||||||||||||||||||.|||..
+107926490-107   2369 G-CGGGCCCAGGGCTGTTTGGAATAATAATTTAATGCTCACTGTAGCCTG   2417
+
+c49723951-497   2459 GACTGAAAGTCAAGCTCAGGCACAATTAGGGCCATGGCTGGGCTCCCACC   2508
+                     |||||.||||||||||||                      ||||||||||
+107926490-107   2418 GACTGGAAGTCAAGCTCA----------------------GGCTCCCACC   2445
+
+c49723951-497   2509 AATGAGGATACAGGCAGGCA---AGGAGGTTGGATGTGGT-GGTGTGGGA   2554
+                     |..||||.||||..||||||   .||.||.||||.||||| .|.|||.| 
+107926490-107   2446 AGCGAGGCTACACACAGGCAGATGGGTGGGTGGAAGTGGTAAGAGTGAG-   2494
+
+c49723951-497   2555 TACAGGAGAAGGGCAAAGGGAGCTCATAAATAGGGCCCAGCCTGGCTCTG   2604
+                         ||.||.|||             ||||.|||||||.|.|||...|||
+107926490-107   2495 ----GGTGATGGG-------------TAAACAGGGCCCGGTCTGCGGCTG   2527
+
+c49723951-497   2605 GGTTCAAAGGTGGAGGTTCCAGGATGGCACAGGCTGTGAGGGCTAGGCAG   2654
+                           |.||.||||.||||||||||||              ||||||||
+107926490-107   2528 ------ATGGCGGAGCTTCCAGGATGGC--------------CTAGGCAG   2557
+
+c49723951-497   2655 CTGAGGAGGTAGTACTCGTATTGGCTCCCTTCTCCCAGTCCTCTACAGAC   2704
+                     |||||||..|.|..||.||.||||||.||||.|||||||||||||||||.
+107926490-107   2558 CTGAGGACATGGCGCTTGTGTTGGCTGCCTTGTCCCAGTCCTCTACAGAT   2607
+
+c49723951-497   2705 ACGATGGTGGTTTTGCAGAAGAAGCAGTCCTTGTTGTTCATCAGGTGCTG   2754
+                     ||.|||||||.||||||||||||                           
+107926490-107   2608 ACAATGGTGGCTTTGCAGAAGAA---------------------------   2630
+
+c49723951-497   2755 GTTGATACAGGCTCTACAACAGGGGAGGGGATGAGGACTGCCCTGCATGT   2804
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   2805 ACCTACTGCTCTCCCCACCACCAAGCTGTGGGGCCCACTTACTTGCAGGA   2854
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   2855 CTTGTGGCCACAGGGCTGGAACACAGCAGAGATGGGGTGGGCATAGCAGA   2904
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   2905 TGGGGCAGAGGTCCTCCTCACTGGTGGGCTGCAGGGAGGAGAGTGAAGGG   2954
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   2955 TGGGCTGGAGTTGGATGCCTGGCTATGTGGATGTCCGTTGTGCCTGTGTA   3004
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3005 GGAGTGCACACATATTCAAGTGGCATGGACCTGTGCACCGTGTTCCCACT   3054
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3055 CACCAGGGAGGCAGCTGCTGCCTGGGCAGATGCAGAGGTCAGGTGCGCCA   3104
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3105 GCATCTGTTCCACTTGGGCCAGCTCATCGGCACTGATATAATCCGCATCT   3154
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3155 GGGGAGTGGTAGGTAGTGTCAAGTCAGAGGTAGCTGAGGATGTGATGCCT   3204
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3205 CTTGAATATTCCCAGCCTAGGACTTTGCTGTTCTTAAGGCTCCTGACCCG   3254
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3255 ACCCAGCCCCAGATTTCCCTGACCTGCCCCACCAGCCCACTCACAGCTCT   3304
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3305 GCAGGGAGAAGCGCTTCCGGTCAGGGGCTGGCAGAGCAGTGCCAGGTGCT   3354
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3355 GGGGGCTCTGGCTGTCCCAGGAGATAGCATATTGAGCGTAGCTGGAAGCA   3404
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3405 GGGATCTGCCAGGAGCACTGATGTGGCTTGCTCTCTCCTAGGTAGGGGAG   3454
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3455 GGTGCAAGGGCAGTCAGAAGGCTTGGGGCCTGGCTAAAAGTCTCTCTTGG   3504
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3505 GATTGCCAATGAGGAGTGCCATGGCTCGTACATGATCACCCCCCCTGCAT   3554
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3555 CCTTTCCGTCTCCCTGCTTCCCAAACCCCAAGTCCTGTATTCTAGTAAGG   3604
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3605 TGCCACACAGCCTGTTTTTTTTTTTTTTTTCTTGAGACGAGTCTCGCTCT   3654
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3655 GTTGCCCAGGCTGGAGTGCGATGGCACGATCTCGGCTCACTGCAACCTCC   3704
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3705 ACCTCCCGGGTTCAAGTGATTCTCCTGCTTTAGCCTCCCGAGTAGCTGGA   3754
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3755 ATTGCAGACGCCCACCACCACGCCCGGCTAATTGTTGTATTTTTAGTAGA   3804
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3805 GACAGGGTTTCACCAGGTTGGCCAGGCTGGTCTCGAATTCCTGACCTCAG   3854
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3855 GTGATCCACCTGCCTTGGCTTCCCAAAGTGCTGGGATTACAGGCGTGAGC   3904
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3905 CACCGCGCCCGGCCTGGGGTACCACTTTAAGAAGGCTCAGGCGAACCACC   3954
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   3955 TTAAGATAGTGAGAGTCTGCCTGCCCCATAATATTATCAGTCCTTCAAAG   4004
+                                                                       
+107926490-107   2631 --------------------------------------------------   2630
+
+c49723951-497   4005 TCACTTCAAATAAACACTAACAGCAGCTTGGA   4036
+                                                     
+107926490-107   2631 --------------------------------   2630
+
+
+#---------------------------------------
+#---------------------------------------
