@@ -1,0 +1,167 @@
+ClearML Task: created new task id=25207fe63d3d45b5bce5e9538c9450b7
+ClearML results page: http://localhost:8080/projects/38e4ae8d584048b5ba3f5618ede9c6be/experiments/25207fe63d3d45b5bce5e9538c9450b7/output/log
+ClearML pipeline page: http://localhost:8080/pipelines/38e4ae8d584048b5ba3f5618ede9c6be/experiments/25207fe63d3d45b5bce5e9538c9450b7
+Launching the next 1 steps
+Launching step [FastQC Analysis]
+Launching step: FastQC Analysis
+Parameters:
+{'kwargs/reads_path': 'SRR31329025.fastq'}
+Configurations:
+{}
+Overrides:
+{}
+ClearML results page: http://localhost:8080/projects/38e4ae8d584048b5ba3f5618ede9c6be/experiments/c49b2458a8564cdba3e04ade571a00e3/output/log
+fastqc_step
+null
+Started analysis of SRR31329025.fastq
+Approx 5% complete for SRR31329025.fastq
+Approx 10% complete for SRR31329025.fastq
+Approx 15% complete for SRR31329025.fastq
+Approx 20% complete for SRR31329025.fastq
+Approx 25% complete for SRR31329025.fastq
+Approx 30% complete for SRR31329025.fastq
+Approx 35% complete for SRR31329025.fastq
+Approx 40% complete for SRR31329025.fastq
+Approx 45% complete for SRR31329025.fastq
+Approx 50% complete for SRR31329025.fastq
+Approx 55% complete for SRR31329025.fastq
+Approx 60% complete for SRR31329025.fastq
+Approx 65% complete for SRR31329025.fastq
+Approx 70% complete for SRR31329025.fastq
+Approx 75% complete for SRR31329025.fastq
+Approx 80% complete for SRR31329025.fastq
+Approx 85% complete for SRR31329025.fastq
+Approx 90% complete for SRR31329025.fastq
+Approx 95% complete for SRR31329025.fastq
+Analysis complete for SRR31329025.fastq
+Launching the next 1 steps
+Launching step [BWA Indexing]
+Launching step: BWA Indexing
+Parameters:
+{'kwargs/reference_path': 'reference.fna'}
+Configurations:
+{}
+Overrides:
+{}
+ClearML results page: http://localhost:8080/projects/38e4ae8d584048b5ba3f5618ede9c6be/experiments/c90a964a7e99411cbfa1eccec4534550/output/log
+bwa_index_step
+[bwa_index] Pack FASTA... 0.03 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 1.01 seconds elapse.
+[bwa_index] Update BWT... 0.02 sec
+[bwa_index] Pack forward-only FASTA... 0.02 sec
+[bwa_index] Construct SA from BWT and Occ... 0.66 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index reference.fna
+[main] Real time: 2.037 sec; CPU: 1.744 sec
+Launching the next 1 steps
+Launching step [BWA Alignment]
+Launching step: BWA Alignment
+Parameters:
+{'kwargs/reference_path': 'reference.fna', 'kwargs/reads_path': 'SRR31329025.fastq'}
+Configurations:
+{}
+Overrides:
+{}
+ClearML results page: http://localhost:8080/projects/38e4ae8d584048b5ba3f5618ede9c6be/experiments/15ea515f7a7847b9bb0af266e335bc98/output/log
+bwa_alignment_step
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 20802 sequences (10000044 bp)...
+[M::process] read 20890 sequences (10000373 bp)...
+[M::mem_process_seqs] Processed 20802 reads in 9.827 CPU sec, 10.191 real sec
+[M::process] read 20836 sequences (10000542 bp)...
+[M::mem_process_seqs] Processed 20890 reads in 10.508 CPU sec, 9.960 real sec
+[M::process] read 20874 sequences (10000623 bp)...
+[M::mem_process_seqs] Processed 20836 reads in 9.419 CPU sec, 8.937 real sec
+[M::process] read 20832 sequences (10000265 bp)...
+[M::mem_process_seqs] Processed 20874 reads in 10.306 CPU sec, 10.471 real sec
+[M::process] read 20820 sequences (10000573 bp)...
+[M::mem_process_seqs] Processed 20832 reads in 10.292 CPU sec, 9.771 real sec
+[M::process] read 20858 sequences (10000523 bp)...
+[M::mem_process_seqs] Processed 20820 reads in 10.426 CPU sec, 9.894 real sec
+[M::process] read 20856 sequences (10000203 bp)...
+[M::mem_process_seqs] Processed 20858 reads in 10.644 CPU sec, 10.742 real sec
+[M::process] read 20776 sequences (10000525 bp)...
+[M::mem_process_seqs] Processed 20856 reads in 10.283 CPU sec, 9.793 real sec
+[M::process] read 20860 sequences (10000202 bp)...
+[M::mem_process_seqs] Processed 20776 reads in 9.831 CPU sec, 9.273 real sec
+[M::process] read 20786 sequences (10000033 bp)...
+[M::mem_process_seqs] Processed 20860 reads in 9.808 CPU sec, 9.326 real sec
+[M::process] read 20816 sequences (10000375 bp)...
+[M::mem_process_seqs] Processed 20786 reads in 10.215 CPU sec, 10.413 real sec
+[M::process] read 20868 sequences (10000201 bp)...
+[M::mem_process_seqs] Processed 20816 reads in 11.236 CPU sec, 10.718 real sec
+[M::process] read 20810 sequences (10000399 bp)...
+[M::mem_process_seqs] Processed 20868 reads in 10.674 CPU sec, 9.999 real sec
+[M::process] read 20820 sequences (10000476 bp)...
+[M::mem_process_seqs] Processed 20810 reads in 10.145 CPU sec, 10.360 real sec
+[M::process] read 20788 sequences (10000304 bp)...
+[M::mem_process_seqs] Processed 20820 reads in 9.712 CPU sec, 9.262 real sec
+[M::process] read 20804 sequences (10000797 bp)...
+[M::mem_process_seqs] Processed 20788 reads in 9.712 CPU sec, 9.068 real sec
+[M::process] read 20828 sequences (10000059 bp)...
+[M::mem_process_seqs] Processed 20804 reads in 11.011 CPU sec, 11.151 real sec
+[M::process] read 20784 sequences (10000725 bp)...
+[M::mem_process_seqs] Processed 20828 reads in 10.340 CPU sec, 9.776 real sec
+[M::process] read 20756 sequences (10000935 bp)...
+ClearML Monitor: Could not detect iteration reporting, falling back to iterations as seconds-from-start
+[M::mem_process_seqs] Processed 20784 reads in 10.752 CPU sec, 10.122 real sec
+[M::process] read 20774 sequences (10000077 bp)...
+[M::mem_process_seqs] Processed 20756 reads in 9.913 CPU sec, 9.446 real sec
+[M::process] read 20816 sequences (10000193 bp)...
+[M::mem_process_seqs] Processed 20774 reads in 10.108 CPU sec, 10.424 real sec
+[M::process] read 20806 sequences (10000595 bp)...
+[M::mem_process_seqs] Processed 20816 reads in 9.831 CPU sec, 9.266 real sec
+[M::process] read 20774 sequences (10000158 bp)...
+[M::mem_process_seqs] Processed 20806 reads in 10.371 CPU sec, 9.738 real sec
+[M::process] read 20802 sequences (10000394 bp)...
+[M::mem_process_seqs] Processed 20774 reads in 10.242 CPU sec, 10.475 real sec
+[M::process] read 20776 sequences (10000378 bp)...
+[M::mem_process_seqs] Processed 20802 reads in 10.988 CPU sec, 10.519 real sec
+[M::process] read 20716 sequences (10000496 bp)...
+[M::mem_process_seqs] Processed 20776 reads in 10.348 CPU sec, 9.666 real sec
+[M::process] read 20790 sequences (10000670 bp)...
+[M::mem_process_seqs] Processed 20716 reads in 10.215 CPU sec, 10.397 real sec
+[M::process] read 20750 sequences (10000683 bp)...
+[M::mem_process_seqs] Processed 20790 reads in 10.793 CPU sec, 10.263 real sec
+[M::process] read 20780 sequences (10000820 bp)...
+[M::mem_process_seqs] Processed 20750 reads in 10.417 CPU sec, 9.772 real sec
+[M::process] read 20762 sequences (10000454 bp)...
+[M::mem_process_seqs] Processed 20780 reads in 10.154 CPU sec, 9.658 real sec
+[M::process] read 20720 sequences (10000021 bp)...
+[M::mem_process_seqs] Processed 20762 reads in 10.716 CPU sec, 10.913 real sec
+[M::process] read 20768 sequences (10000737 bp)...
+[M::mem_process_seqs] Processed 20720 reads in 10.751 CPU sec, 10.184 real sec
+[M::process] read 20750 sequences (10000182 bp)...
+[M::mem_process_seqs] Processed 20768 reads in 10.719 CPU sec, 10.184 real sec
+[M::process] read 20766 sequences (10000653 bp)...
+[M::mem_process_seqs] Processed 20750 reads in 10.033 CPU sec, 10.162 real sec
+[M::process] read 20724 sequences (10000231 bp)...
+[M::mem_process_seqs] Processed 20766 reads in 10.132 CPU sec, 9.497 real sec
+[M::process] read 20726 sequences (10000571 bp)...
+[M::mem_process_seqs] Processed 20724 reads in 9.842 CPU sec, 9.346 real sec
+[M::process] read 20758 sequences (10000854 bp)...
+[M::mem_process_seqs] Processed 20726 reads in 10.324 CPU sec, 10.607 real sec
+[M::process] read 20702 sequences (10000446 bp)...
+[M::mem_process_seqs] Processed 20758 reads in 10.093 CPU sec, 9.495 real sec
+[M::process] read 20692 sequences (10000327 bp)...
+[M::mem_process_seqs] Processed 20702 reads in 9.584 CPU sec, 9.087 real sec
+[M::process] read 13214 sequences (6390369 bp)...
+[M::mem_process_seqs] Processed 20692 reads in 9.523 CPU sec, 9.038 real sec
+[M::mem_process_seqs] Processed 13214 reads in 6.344 CPU sec, 6.566 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference.fna SRR31329025.fastq
+[main] Real time: 405.422 sec; CPU: 416.845 sec
+Launching the next 1 steps
+Launching step [Samtools Flagstat]
+Launching step: Samtools Flagstat
+Parameters:
+None
+Configurations:
+{}
+Overrides:
+{}
+ClearML results page: http://localhost:8080/projects/38e4ae8d584048b5ba3f5618ede9c6be/experiments/c3b57012582447e5b0aef1d65242fd43/output/log
+samtools_flagstat_step
+OK: mapped 90.92%
+Launching the next 0 steps

@@ -1,0 +1,14 @@
+ClearML Task: created new task id=5b707ffb924840d8b4ae1f18a7301011
+ClearML results page: http://localhost:8080/projects/d827271a37a746b389813152a3898bb8/experiments/5b707ffb924840d8b4ae1f18a7301011/output/log
+ClearML pipeline page: http://localhost:8080/pipelines/d827271a37a746b389813152a3898bb8/experiments/5b707ffb924840d8b4ae1f18a7301011
+Launching the next 1 steps
+Launching step [log_hello]
+Launching step: log_hello
+Parameters:
+None
+Configurations:
+{}
+Overrides:
+{}
+ClearML results page: http://localhost:8080/projects/d827271a37a746b389813152a3898bb8/experiments/f775ec8c10cc4391b3f79280dda5c8a0/output/log
+HELLO CLEARML
