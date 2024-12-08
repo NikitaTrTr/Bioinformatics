@@ -1,0 +1,291 @@
+1  ls
+    2  cd /mnt/e
+    3  ls
+    4  cd /mnt/d/study/Bioinformatics/
+    5  ls
+    6  code .
+    7  ls
+    8  python
+    9  apt
+   10  wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+   11  tar -vxzf sratoolkit.tar.gz
+   12  export PATH=$PATH:$PWD/sratoolkit.3.1.1-ubuntu64/bin/
+   13  which fastq-dump
+   14  which prefetch
+   15  prefetch SRX26706482
+   16  fastq-dump SRX26706482
+   17  fastq-dump SRR31329025/SRX26706482
+   18  fastq-dump SRR31329025/SRX26706482.sra
+   19  fastq-dump SRR31329025/SRR31329025.sra
+   20  ls -l
+   21  ls -a
+   22  info
+   23  describe
+   24  sudo apt install default-jre
+   25  java
+   26  sudo apt install default-jre
+   27  java
+   28  sudo apt install openjdk-17-jre-headless
+   29  sudo apt update
+   30  sudo apt install default-jre
+   31  java -version
+   32  perl
+   33  which perl
+   34  sudo apt-get install bwa
+   35  sudo apt-get install samtools
+   36  bwa
+   37  samtools
+   38  cd task4
+   39  fastqc SRR31329025.fastq 
+   40  fastqc
+   41  wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip
+   42  unzip fastqc_v0.12.1.zip 
+   43  sudo apt install unzip
+   44  unzip fastqc_v0.12.1.zip 
+   45  fastqc
+   46  ./FastQC/fastqc
+   47  ./FastQC/fastqc --help
+   48  bwa index reference.fasta
+   49  bwa index SRR31329025.fastq
+   50  sudo apt install fastqc
+   51  fastqc
+   52  code.
+   53  code .
+   54  bwa --help
+   55  bwa -h
+   56  bwa 
+   57  sudo apt-get update
+   58  sudo apt-get install docker.io docker-compose -y
+   59  docker --version
+   60  docker-compose --version
+   61  curl -O https://raw.githubusercontent.com/allegroai/clearml-server/master/docker-compose.yml
+   62  docker-compose up -d
+   63  curl -O https://raw.githubusercontent.com/allegroai/clearml-server/master/docker-compose.yml
+   64  curl -O https://raw.githubusercontent.com/allegroai/clearml-server/refs/heads/master/docker/docker-compose.yml
+   65  docker-compose up -d
+   66  cat ~/.docker/config.json
+   67  nano ~/.docker/config.json
+   68  docker-compose up -d
+   69  netstat -tuln | grep 8081
+   70  ip addr show eth0
+   71  docker ps
+   72  pip install clearml
+   73  pip3 install clearml
+   74  python3-pip install clearml
+   75  sudo apt install pip
+   76  pip install clearml
+   77  apt install python3-clearml
+   78  python3 pip
+   79  pip
+   80  pip install clearml
+   81  python3 -m venv task4
+   82  sudo apt install python3.12-venv
+   83  python3 -m venv task4
+   84  cd task4
+   85  python3 -m venv task4
+   86  python3 -m venv task4venv
+   87  ./task4venv/bin/activate
+   88  which python
+   89  which python3
+   90  which python
+   91  which python3
+   92  which pip
+   93  pip install clear ml
+   94  pip install clearml
+   95  ./task4venv/bin/activate
+   96  source task4venv/bin/activate
+   97  which python
+   98  pip install clearml
+   99  clearml-init
+  100  bwa index task4/reference/GCF_000005845.2/GCF_000005845.2_ASM584v2_genomic.fna
+  101  bwa mem task4/reference/GCF_000005845.2/GCF_000005845.2_ASM584v2_genomic.fna task4/SRR31329025.fastq > aligned.sam
+  102  samtools flagstat aligned.sam 
+  103  history
+  104  fastqc task4/SRR31329025.fastq
+  105  fastqc 
+  106  fastqc --help
+  107  bwa
+  108  bwa mem task4/reference/GCF_000005845.2/GCF_000005845.2_ASM584v2_genomic.fna task4/SRR31329025.fastq > task4/aligned.sam
+  109  python task4/get_percent_of_mapped.py 
+  110  python3 task4/get_percent_of_mapped.py 
+  111  cd task4
+  112  python3 get_percent_of_mapped.py 
+  113  python3 
+  114  python3 get_percent_of_mapped.py reference.fna SRR31329025.fastq 
+  115  bwa mem reference.fna SRR31329025.fastq 
+  116  python3 get_percent_of_mapped.py reference.fna SRR31329025.fastq 
+  117  docker stop $(docker ps -q)
+  118  docker-compose up -d
+  119  docker ps
+  120  docker list
+  121  docker --list
+  122  docker-compose --help
+  123  docker-compose up --help
+  124  docker-compose up -d --force-recreate
+  125  docker inages
+  126  docker images
+  127  docker rmi --all
+  128  docker rmi redis
+  129  docker rmi redis:6.2
+  130  docker ps --all
+  131  docker-compose up -d 
+  132  ps
+  133  htop
+  134  top
+  135  source task4venv/bin/activate
+  136  docker-compose up -d 
+  137  echo "vm.max_map_count=262144" > /tmp/99-clearml.conf
+  138  sudo mv /tmp/99-clearml.conf /etc/sysctl.d/99-clearml.conf
+  139  sudo sysctl -w vm.max_map_count=262144
+  140  sudo service docker restart
+  141  sudo rm -R /opt/clearml/
+  142  sudo mkdir -p /opt/clearml/data/elastic_7
+  143  sudo mkdir -p /opt/clearml/data/mongo_4/db
+  144  sudo mkdir -p /opt/clearml/data/mongo_4/configdb
+  145  sudo mkdir -p /opt/clearml/data/redis
+  146  sudo mkdir -p /opt/clearml/logs
+  147  sudo mkdir -p /opt/clearml/config
+  148  sudo mkdir -p /opt/clearml/data/fileserver
+  149  sudo chown -R 1000:1000 /opt/clearml
+  150  sudo curl https://raw.githubusercontent.com/allegroai/clearml-server/master/docker/docker-compose.yml -o /opt/clearml/docker-compose.yml
+  151  export CLEARML_AGENT_ACCESS_KEY=admin
+  152  export CLEARML_AGENT_SECRET_KEY=admin
+  153  export CLEARML_HOST_IP=localhost
+  154  export CLEARML_AGENT_GIT_USER=admin
+  155  export CLEARML_AGENT_GIT_PASS=admin
+  156  docker-compose -f /opt/clearml/docker-compose.yml up -d
+  157  cd task4
+  158  python pipeline.py reference.fna SRR31329025
+  159  source task4venv/bin/activate
+  160  python pipeline.py reference.fna SRR31329025
+  161  history
+  162  cd task4
+  163  source task4venv/bin/activate
+  164  python get_percent_of_mapped.py 
+  165  python get_percent_of_mapped.py reference.fna SRR31329025.fastq 
+  166  pip list
+  167  python pipeline.py
+  168  python pipeline.py reference.fna SRR31329025
+  169  clearml
+  170  ps aux | grep clearml-agent
+  171  clearml-agent status
+  172  python pipeline.py reference.fna SRR31329025
+  173  clearml-agent daemon --stop
+  174  history
+  175  clear
+  176  sudo apt install clearml-agent
+  177  pip install clearml-agent
+  178  clearml-agent daemon --queue default
+  179  pip install pkg_resources
+  180  pip install setuptools
+  181  clearml-agent daemon --queue default
+  182  clearml-agent daemon --stop
+  183  clearml-agent init
+  184  clearml-agent daemon --stop
+  185  clearml-agent status
+  186  clearml-agent list
+  187  clearml-agent daemon --help
+  188  clearml-agent daemon --status
+  189  ps
+  190  htop
+  191  sudo apt install htop
+  192  htop
+  193  clearml-agent daemon --status
+  194  clearml-agent daemon --stop
+  195  ps aux | grep clearml-agent
+  196  kill 3032
+  197  kill 28975
+  198  ps aux | grep clearml-agent
+  199  kill 29271
+  200  ps aux | grep clearml-agent
+  201  pkill clearml-agent
+  202  ps aux | grep clearml-agent
+  203  docker ps
+  204  ps aux | grep clearml-agent
+  205  kill 30486
+  206  ps aux | grep clearml-agent
+  207  kill 4096
+  208  ps aux
+  209  nano ~/.clearml/clearml.conf
+  210  python pipeline.py reference.fna SRR31329025
+  211  nano ~/.clearml/clearml.conf
+  212  python pipeline.py reference.fna SRR31329025
+  213  clearml-agent daemon --queue default --docker --docker-args="-v /mnt/d/study/Bioinformatics/task4:/container/path"
+  214  python pipeline.py reference.fna SRR31329025
+  215  clearml-agent daemon --queue default
+  216  history
+  217  cd /
+  218  ls -l
+  219  cd home/
+  220  ls -l
+  221  cd nikita/
+  222  ls
+  223  ls -k
+  224  ls -l
+  225  cd ..
+  226  ls -la
+  227  find
+  228  clear
+  229  find clearml.conf
+  230  find --help
+  231  history
+  232  clearml-agent daemon --queue default
+  233  pip install clearml-agent
+  234  cd root
+  235  ls
+  236  ls -l
+  237  ls -la
+  238  nano clearml.conf 
+  239  rm clearml.conf 
+  240  cd /mnt/d/study/Bioinformatics/task4
+  241  ls
+  242  source task4venv/bin/activate
+  243  pip
+  244  clearml-agent
+  245  docker
+  246  sudo rm -R /opt/clearml/
+  247  echo "vm.max_map_count=262144" > /tmp/99-clearml.conf
+  248  sudo mv /tmp/99-clearml.conf /etc/sysctl.d/99-clearml.conf
+  249  sudo sysctl -w vm.max_map_count=262144
+  250  sudo service docker restart
+  251  sudo mkdir -p /opt/clearml/data/elastic_7
+  252  sudo mkdir -p /opt/clearml/data/mongo_4/db
+  253  sudo mkdir -p /opt/clearml/data/mongo_4/configdb
+  254  sudo mkdir -p /opt/clearml/data/redis
+  255  sudo mkdir -p /opt/clearml/logs
+  256  sudo mkdir -p /opt/clearml/config
+  257  sudo mkdir -p /opt/clearml/data/fileserver
+  258  sudo chown -R 1000:1000 /opt/clearml
+  259  sudo curl https://raw.githubusercontent.com/allegroai/clearml-server/master/docker/docker-compose.yml -o /opt/clearml/docker-compose.yml
+  260  wget https://raw.githubusercontent.com/allegroai/clearml-server/master/docker/docker-compose.yml
+  261  clearml
+  262  pip install clearml
+  263  source task4venv/bin/activate
+  264  pip install clearml
+  265  docker-compose up -d
+  266  clearml-init
+  267  clearml-agent init
+  268  nano ~/.clearml.conf
+  269  docker-compose
+  270  docker-compose images
+  271  docker-compose images --list
+  272  docker-compose start
+  273  docker-compose up -d
+  274  clearml-init
+  275  sudo useradd tatnv
+  276  passwd tatnv
+  277  sudo useradd -m tatnv
+  278  sudo useradd -m tatnv01
+  279  passwd tatnv01
+  280  su-tatn01
+  281  su -tatnv01
+  282  su tatnv01
+  283  cd ../../../..
+  284  cd ..
+  285  ls
+  286  cd root
+  287  ls -la
+  288  nano clearml.conf 
+  289  su - tatnv01
+  290  /bin/python3 /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/printEnvVariablesToFile.py /root/.vscode-server/extensions/ms-python.python-2024.20.0-linux-x64/python_files/deactivate/bash/envVars.txt
+  291  history
