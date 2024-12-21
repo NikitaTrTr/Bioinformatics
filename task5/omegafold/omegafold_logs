@@ -1,0 +1,9 @@
+INFO:root:Loading weights from /root/.cache/omegafold_ckpt/model.pt
+INFO:root:Constructing OmegaFold
+INFO:root:Reading tertiary_structure_predictions_00cf3.fasta
+INFO:root:Predicting 1th chain in tertiary_structure_predictions_00cf3.fasta
+INFO:root:100 residues in this chain.
+INFO:root:Finished prediction in 9.47 seconds.
+INFO:root:Saving prediction to ./tertiary_structure_predictions_00cf3.pdb
+INFO:root:Saved
+INFO:root:Done!
